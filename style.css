@@ -1,31 +1,34 @@
-body{
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.container {
     text-align: center;
-    
 }
-#apps{
-    background-color: aquamarine;
-    width:100%;
-    height:800px
+
+#myCarousel {
+    background-color: red;
 }
-#games{
-    background-color:palegreen;
-    width:100%;
-    height:800px 
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
 }
-#chatbot{
-    background-color:blanchedalmond;
-    width:100%;
-    height:800px
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
 }
-.line{
-    height:6px;
-    background-color: black;
-    width:100px;
-    margin:auto;
+
+#myCarouse2 {
+    background-color: #b5d0d4;
 }
-img{
-    transition:transform .2s;
-}
-img:hover{
-    transform: scale(0.9)
+
+#myCarouse2 img {
+    height: 300px;
+    margin-top: 35px;
 }
